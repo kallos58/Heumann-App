@@ -1,0 +1,69 @@
+    <div style="display: flex;" >
+      <div class="card" (click)="cardClick(8)">
+        <div style="font-weight: bold;">Batch Release</div>
+        <div style="margin-top: 5em;"><img 
+          style="width:24px; height:24px;"
+          src="https://cdn3.iconfinder.com/data/icons/databases-2/512/tables-64.png" /></div>
+          <div><label style="font-size:11px;">777 entries</label></div>
+      </div>
+      <div class="card"  (click)="cardClick(1)">
+        <div style="font-weight: bold;">Abbreviations</div>
+        <div style="margin-top: 5em;"><img 
+          style="width:24px; height:24px;"
+          src="https://cdn3.iconfinder.com/data/icons/databases-2/512/tables-64.png" /></div>
+          <div><label style="font-size:11px;">27 entries</label></div>
+      </div>
+      <div class="card"  (click)="cardClick(2)">
+        <div style="font-weight: bold;">CMO Masters</div>
+        <div style="margin-top: 5em;"><img 
+          style="width:24px; height:24px;"
+          src="https://cdn3.iconfinder.com/data/icons/databases-2/512/tables-64.png" /></div>
+          <div><label style="font-size:11px;">563 entries</label></div>
+      </div>
+      <div class="card"  (click)="cardClick(3)">
+        <div style="font-weight: bold;">SCM Priorities</div>
+        <div style="margin-top: 5em;"><img 
+          style="width:24px; height:24px;"
+          src="https://cdn3.iconfinder.com/data/icons/databases-2/512/tables-64.png" /></div>
+          <div><label style="font-size:11px;">1537 entries</label></div>
+      </div>
+      <div class="card"  (click)="cardClick(4)">
+        <div style="font-weight: bold;">Contacts Contacts</div>
+        <div style="margin-top: 5em;"><img 
+          style="width:24px; height:24px;"
+          src="https://cdn3.iconfinder.com/data/icons/databases-2/512/tables-64.png" /></div>
+          <div><label style="font-size:11px;">106 entries</label></div>
+      </div>
+      <div class="card"  (click)="cardClick(5)">
+        <div style="font-weight: bold;">Contacts Vendors</div>
+        <div style="margin-top: 5em;"><img 
+          style="width:24px; height:24px;"
+          src="https://cdn3.iconfinder.com/data/icons/databases-2/512/tables-64.png" /></div>
+          <div><label style="font-size:11px;">74 entries</label></div>
+      </div>
+    </div>
+    <div style="display: flex;">
+      <div class="card" (click)="cardClick(6)">
+        <div style="font-weight: bold;">Contacts SKU</div>
+        <div style="margin-top: 5em;"><img 
+          style="width:24px; height:24px;"
+          src="https://cdn3.iconfinder.com/data/icons/databases-2/512/tables-64.png" /></div>
+          <div><label style="font-size:11px;">1941 entries</label></div>
+      </div>
+      <div class="card"  (click)="cardClick(7)">
+        <div style="font-weight: bold;">SAP FG Material</div>
+        <div style="margin-top: 5em;"><img 
+          style="width:24px; height:24px;"
+          src="https://cdn3.iconfinder.com/data/icons/databases-2/512/tables-64.png" /></div>
+          <div><label style="font-size:11px;">3413 entries</label></div>
+      </div>
+    </div>
+    <div  style="margin-left: 1em; margin-top: 1em; font-weight: bold;">
+      <label >{{entries}}</label>
+      <button class="xlsButton ml1" type="submit" (click)="clearFilter()" >Clear filter
+        <img style="border: none" src="https://cdn-icons-png.flaticon.com/128/3126/3126675.png" height="16px" width="16px"/>
+      </button>
+      <button class="xlsButton ml1" type="submit" (click)="exportToXls()">Export to Excel
+        <img style="border: none" src="https://cdn3.iconfinder.com/data/icons/document-icons-2/30/647714-excel-64.png" height="16px" width="16px"/>
+      </button>
+    </div>

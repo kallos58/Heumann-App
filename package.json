@@ -22,10 +22,19 @@
     "@angular/platform-browser": "^18.2.13",
     "@angular/platform-browser-dynamic": "^18.2.13",
     "@angular/router": "^18.2.13",
+    "@progress/kendo-angular-buttons": "^18.0.0",
     "angular-basic": "file:",
     "rxjs": "~6.6.6",
     "tslib": "^2.0.0",
-    "zone.js": "~0.14.10"
+    "zone.js": "~0.14.10",
+    "@progress/kendo-licensing": "^1.0.2",
+    "@progress/kendo-angular-common": "18.0.0",
+    "@progress/kendo-angular-l10n": "18.0.0",
+    "@progress/kendo-angular-popup": "18.0.0",
+    "@progress/kendo-angular-icons": "18.0.0",
+    "@progress/kendo-svg-icons": "^4.0.0",
+    "@angular/localize": "^18.2.13",
+    "@progress/kendo-theme-default": "^10.1.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.2.12",
