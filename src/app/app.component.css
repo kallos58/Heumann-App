@@ -2,6 +2,7 @@
     font-family: arial, sans-serif;
     font-size: 14px;
     padding-left: 1em;
+    padding-top: 1em;
     background-color: rgba(232, 232, 232, 0.538);
     color: black;
     border-color: gray;
@@ -14,6 +15,14 @@
     width: 12em;
   }
 
+  .card div:first-child {
+    font-weight: bold;
+  }
+
+  .card div:nth-child(2) {
+    margin-top: 5em;
+  }
+
   .xlsButton {
     border-radius: 5px;
     cursor: pointer;
@@ -22,6 +31,15 @@
   
   .ml1 {
     margin-left: 1em;
+  }
+
+  .img2424 {
+    width:24px; 
+    height:24px;
+  }
+
+  .fwbold {
+    font-weight: bold;
   }
   
   
