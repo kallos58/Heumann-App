@@ -23,6 +23,7 @@
     "@angular/platform-browser": "^18.2.13",
     "@angular/platform-browser-dynamic": "^18.2.13",
     "@angular/router": "^18.2.13",
+    "@azure/cosmos": "^4.2.0",
     "@progress/kendo-angular-buttons": "18.0.0",
     "@progress/kendo-angular-common": "18.0.0",
     "@progress/kendo-angular-icons": "18.0.0",
